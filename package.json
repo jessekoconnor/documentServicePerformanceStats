@@ -1,0 +1,16 @@
+{
+  "name": "document-service-performance-testing",
+  "version": "1.0.0",
+  "description": "A simple tool to test how quickly an addhoc document get be retrieved from the normal GET endpoint",
+  "main": "index.js",
+  "scripts": {
+  	"start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.0",
+    "sleep": "^3.0.0"
+  }
+}
