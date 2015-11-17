@@ -15,7 +15,7 @@ function postAndGet(done) {
 
 			var finishTime = new Date();
 			var timeTaken = finishTime.getTime() - startTime.getTime();
-			if(!error) {
+			if(error == 200) {
 				console.log('    Document retrievable in ' + timeTaken)
 				runningTotalTime += timeTaken;
 			} else {
@@ -27,11 +27,9 @@ function postAndGet(done) {
 	})
 }
 
-
 var runs = 0;
 var unretrievableDocs = 0;
 var runningTotalTime = 0;
-
 
 // pretty
 function printSummary() {

@@ -48,7 +48,7 @@ function makeGet(id, cb) {
       })
     },
     function error(err) {
-      cb(tries, err);
+      cb(tries, errorCode);
     }
   );
 }
