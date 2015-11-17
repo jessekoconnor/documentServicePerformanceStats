@@ -1,1 +1,18 @@
-{"body":{"content":{"text":"CNN Content"},"publishDate":{"date":"2014-01-01T00:00:00.000Z"},"title":{"text":"CNN"}},"metaData":{"mediaType":"news","source":{"informationType":"news"},"url":"http://www.cnn.com"}}
+{
+  "body": {
+    "publishDate": {
+      "date": "2015-10-27T00:00:00.000Z"
+    },
+    "title": {
+      "text": "Lightning shut out for second game in a row"
+    }
+  },
+  "metaData": {
+    "mediaType": "news",
+    "source": {
+      "informationType": "news"
+    },
+    "url": 
+"http://www.tampabay.com/sports/hockey/lightning/lightning-shut-out-for-second-game-in-a-row/2251535"
+  }
+}
